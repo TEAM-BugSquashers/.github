@@ -36,7 +36,6 @@
   - 팀원 
     - Front / Back 
       - 로그인 페이지, 회원가입 페이지, 마이페이지, 관리자 API, ID/PW 찾기 기능
-      - 
 
 ## ERD
 ![image (15)](https://github.com/user-attachments/assets/e6c1b050-abab-4220-941c-d43eebe9267c)
