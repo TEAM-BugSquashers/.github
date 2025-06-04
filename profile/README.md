@@ -130,7 +130,7 @@
 - GET `/api/movies/{movieId}` : 영화 상세 조회
 - GET `/api/movies/genres` : 전체 장르 조회
 - GET `/api/movies/grouped-by-genre` : 장르별 영화 조회
-- GET `/api/movies/genres/{genreId} : 해당 장르에 대한 전체 영화 조회
+- GET `/api/movies/genres/{genreId}` : 해당 장르에 대한 전체 영화 조회
 - GET `/api/movies/new` : 최신 영화 조회
 - GET `/api/movies/best` : 인기(누적관객수) 영화 조회
 - GET `/api/movies/recommend` : 추천 페이지
@@ -139,7 +139,7 @@
 ### Admin API
 - GET `/api/admin/users` : 모든 사용자 조회
 - GET `/api/admin/reservations` : 모든 예약 조회
-- GET `/api/admin/reservations/{reservationId} : 예약 상세 조회
+- GET `/api/admin/reservations/{reservationId}` : 예약 상세 조회
 
 ## 화면 구성
 ### 로그인 페이지
