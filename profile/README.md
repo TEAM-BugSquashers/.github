@@ -80,7 +80,7 @@
 
 ## 화면 구성
 ### 로그인 페이지
-![로그인페이지](
+![로그인페이지](https://github.com/user-attachments/assets/1f63d86f-b0af-4c06-8533-64d0ad76ff8c)
 
 
 ## 요구사항
