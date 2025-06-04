@@ -6,7 +6,6 @@
 - [ERD](#erd)
 - [개발환경](#개발환경)
 - [요구사항](#요구사항)
-- [주요 기능](#주요-기능)
 - [주요 API](#주요-api)
 - [화면 구성](#화면-구성)
 
@@ -85,10 +84,7 @@
 - 
 
 
-## 주요 기능
-
-
-## 주요 api
+## 주요 API
 
 ### 인증 관련 API
 - GET `/login` : 로그인 페이지
@@ -142,7 +138,7 @@
 - GET `/api/admin/reservations/{reservationId}` : 예약 상세 조회
 
 ## 화면 구성
-### 로그인 페이지
+### 로그인페이지
 ![Image](https://github.com/user-attachments/assets/44d6295e-a6ea-4698-b41d-a25f259a30b5)
 
 ![Image](https://github.com/user-attachments/assets/9473ef7e-1fed-48eb-9cf7-ea45e7ac83c2)
