@@ -80,10 +80,12 @@
 
 ## 화면 구성
 ### 로그인 페이지
+![Image](https://github.com/user-attachments/assets/44d6295e-a6ea-4698-b41d-a25f259a30b5)
 
+![Image](https://github.com/user-attachments/assets/9473ef7e-1fed-48eb-9cf7-ea45e7ac83c2)
 
 ### 회원가입페이지
-
+![Image](https://github.com/user-attachments/assets/a17e7647-ca61-41f0-a0ff-258be6824b7b)
 
 ### 메인(추천)페이지
 
