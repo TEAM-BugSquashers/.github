@@ -1,6 +1,16 @@
 # Scenestra 
 ![Image (12)](https://github.com/user-attachments/assets/6b293636-ec05-4a0a-b91d-99f546fec3d5)
 
+## 목차
+- [팀 소개](#팀-소개)
+- [ERD](#erd)
+- [개발환경](#개발환경)
+- [화면 구성](#화면-구성)
+- [요구사항](#요구사항)
+- [주요 기능](#주요-기능)
+- [주요 API](#주요-api)
+
+
 ## 팀 소개
 #### 최준우
   - 팀장
@@ -26,11 +36,11 @@
   - 팀원 
     - Front / Back 
       - 로그인 페이지, 회원가입 페이지, 마이페이지, 관리자 API, ID/PW 찾기 기능
-
-## 와이어프레임
+      - 
 
 ## ERD
 ![image (15)](https://github.com/user-attachments/assets/e6c1b050-abab-4220-941c-d43eebe9267c)
+
 
 ## 개발환경
 
@@ -69,13 +79,72 @@
 ![Jwt](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
-<!--
+## 화면 구성
 
-**Here are some ideas to get you started:**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 요구사항
+
+### 서버 요구사항
+- JDK 17
+- 
+
+
+## 주요 기능
+
+
+## 주요 api
+
+### 인증 관련 API
+- GET `/login` : 로그인 페이지
+- POST `/login` : 로그인 처리
+- GET `/logout` : 로그아웃
+
+### User API
+- GET `/api/users/me` : 내 정보 조회
+- POST `/api/users/join` : 회원가입
+- GET `/api/users/check-username` : 아이디 중복 체크
+- GET `/api/users/preferred-genres` : 선호 장르 조회
+- PUT `/api/users/preferred-genres` : 선호 장르 수정
+- PUT `/api/users/info` : 유저 정보 수정
+- PUT `/api/users/password` : 비밀번호 수정
+
+### Theater API
+- GET `/api/theaters` : 상영관 목록 전체 조회
+- GET `/api/theaters/capacity` : 수용 가능 상영관 목록 조회
+- GET `/api/theaters/{theaterId}` : 상영관 상세 조회
+
+### Review API
+- POST `/api/reviews(Content-Type: multipart/form-data)` : 게시글 작성
+- GET `/api/reviews` : 전체 리뷰 목록 조회
+- GET `/api/reviews/{id}` : 리뷰 상세 조회
+- GET `/api/reviews/theater/{theaterId}` : 상영관 별 리뷰 목록 조회
+
+### Reservation API
+- GET `/api/reservations/available-dates` : 월별 상영관 예약 가능일 목록 조회
+- GET `/api/reservations/available-times` : 특정 날짜에 예약 가능한 시간 목록 조회
+- POST `/api/reservations/check-availability` : 상영관 예약 가능 여부 최종 조회
+- POST `/api/reservations` : 상영관 예약
+- GET `/api/reservations/{reservationId}` : 예약 상세 조회
+- DELETE `/api/reservations/{reservationId}` : 예약 취소
+- GET `/api/reservations/my/all` : 내 예약 목록 조회
+- GET `/api/reservations/my/in-progress` : 내 진행 중인 예약 목록 조회
+
+### Movie API
+- GET `/api/movies` : 전체 영화 조회
+- GET `/api/movies/{movieId}` : 영화 상세 조회
+- GET `/api/movies/genres` : 전체 장르 조회
+- GET `/api/movies/grouped-by-genre` : 장르별 영화 조회
+- GET `/api/movies/genres/{genreId} : 해당 장르에 대한 전체 영화 조회
+- GET `/api/movies/new` : 최신 영화 조회
+- GET `/api/movies/best` : 인기(누적관객수) 영화 조회
+- GET `/api/movies/recommend` : 추천 페이지
+- GET `/api/movies/search` : 영화명으로 영화 검색
+
+### Admin API
+- GET `/api/admin/users` : 모든 사용자 조회
+- GET `/api/admin/reservations` : 모든 예약 조회
+- GET `/api/admin/reservations/{reservationId} : 예약 상세 조회
+
+
+
+
