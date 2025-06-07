@@ -7,7 +7,6 @@
 - [개발환경](#개발환경)
 - [요구사항](#요구사항)
 - [주요 API](#주요-api)
-- [화면 구성](#화면-구성)
 
 
 ## 팀 소개
@@ -37,7 +36,8 @@
       - 로그인 페이지, 회원가입 페이지, 마이페이지, 관리자 API, ID/PW 찾기 기능
 
 ## ERD
-![image (15)](https://github.com/user-attachments/assets/e6c1b050-abab-4220-941c-d43eebe9267c)
+![erd](https://github.com/user-attachments/assets/35fa4973-b43e-4913-b5ff-a1aef1eda993)
+
 
 
 ## 개발환경
@@ -137,50 +137,6 @@
 - GET `/api/admin/reservations` : 모든 예약 조회
 - GET `/api/admin/reservations/{reservationId}` : 예약 상세 조회
 
-## 화면 구성
-### 로그인페이지
-![Image](https://github.com/user-attachments/assets/44d6295e-a6ea-4698-b41d-a25f259a30b5)
-
-![Image](https://github.com/user-attachments/assets/9473ef7e-1fed-48eb-9cf7-ea45e7ac83c2)
-
-### 회원가입페이지
-![Image](https://github.com/user-attachments/assets/a17e7647-ca61-41f0-a0ff-258be6824b7b)
-
-### 메인(추천)페이지
-![Image](https://github.com/user-attachments/assets/7061a69f-7d1b-40a1-ac70-450cc7779dee)
-
-![Image](https://github.com/user-attachments/assets/28b63044-cc21-4acb-a3c3-0fc1ddcbf03d)
-
-![Image](https://github.com/user-attachments/assets/bf2be271-b9be-46c4-8e2c-bc3fcfc3cee0)
-
-### 전체영화페이지
-![Image](https://github.com/user-attachments/assets/88571d3a-428c-4077-9483-0368b051f0c0)
-
-### 장르더보기
-![Image](https://github.com/user-attachments/assets/249e4981-a6b8-42c2-8808-75f81fb3635c)
-
-### 영화상세조회
-![Image](https://github.com/user-attachments/assets/d2b73480-4cd8-4bdd-9126-87f68705e78b)
-
-### 예약
-![Image](https://github.com/user-attachments/assets/9dc95b90-b7f5-4ebb-b133-04e88003f837)
-
-### 마이페이지
-![Image](https://github.com/user-attachments/assets/e563bd69-cca4-4c66-b017-3ba59a78aa79)
-
-![Image](https://github.com/user-attachments/assets/0993c00e-f51d-4bd3-bbb8-037003d5cb28)
-
-![Image](https://github.com/user-attachments/assets/42297866-4ff6-4d45-8369-25ffbb782183)
-
-### 서비스소개
-![Image](https://github.com/user-attachments/assets/1f39a8ad-3df5-4df1-9a48-bb7ac549fa99)
-
-### 상영관소개
-![Image](https://github.com/user-attachments/assets/f2de294f-496e-42b8-b30d-b6ee48a2ebf8)
-![Image](https://github.com/user-attachments/assets/ee12f3be-8851-43e2-a1d6-f8e9e21bd9b6)
-
-### 관리자페이지
-![Image](https://github.com/user-attachments/assets/23cf4ae0-f328-4991-b8d7-ab3306b780f0)
 
 
 
