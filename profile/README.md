@@ -36,7 +36,7 @@
       - 로그인 페이지, 회원가입 페이지, 마이페이지, 관리자 API, ID/PW 찾기 기능
 
 ## ERD
-![image (15)](https://github.com/user-attachments/assets/e6c1b050-abab-4220-941c-d43eebe9267c)
+![erd](https://github.com/user-attachments/assets/35fa4973-b43e-4913-b5ff-a1aef1eda993)
 
 
 
